@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+       #overall{
+           display: flex;
+           align-items: center;
+           justify-content: space-evenly;
+           padding-left: 500px;
+           padding-right: 100px;
+           padding: 100px;
+       }
+      .whole{
+           background-color: lightcoral;
+           padding-left: 25px;
+           padding-top: 25px;
+          
+       }
+       
+       .wrapper{
+           width: 100px;
+           height: 150px;
+         transition: 3s;
+         border: lightslategray;
+        
+       }
+       .wrapper:hover{
+          width: 250px;
+           height: 200px;
+         
+          transition: translate(100px, 100px);
+
+           /* transition: translate(100px, 200px);
+           scale: 100px;
+           box-shadow: 10px;*/
+       }
+   </style>
+</head>
+<body>
+    <div id="overall">
+        <div class="whole">
+        <div class="wrapper">
+            <img src="./images.jpg">
+        </div>
+        <div>
+            <h3>Boque</h3>
+            <p>You can find all kinds of flower here.</p>
+        </div>
+        </div>
+
+      <div class="whole">
+        <div  class="wrapper">
+            <img src="./download.jpg">
+        </div>
+        <div>
+            <h3>Boque</h3>
+            <p>You can find all kinds of flower here.</p>
+        </div>
+    </div>
+
+        <div class="whole">
+        <div  class="wrapper">
+            <img src="./download (1).jpg">
+        </div>
+        <div>
+            <h3>Boque</h3>
+            <p>You can find all kinds of flower here.</p>
+        </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>

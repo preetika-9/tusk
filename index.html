@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <style>
+      
+      div{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            transition: width 2s, height 4s;
+            animation-name: example;
+            animation-duration: 5s;
+           animation-delay: 2s;
+           animation-iteration-count: infinite;
+        }
+        div:hover {
+            width: 300px;
+            height: 300px;
+        }
+        @keyframes example {
+  from {background-color: black;}
+  to {background-color: yellow;}
+}
+
+
+   
+    
+img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1; 
+}
+    </style>
+</head>
+<body>
+    <h1>This is progess tag</h1>
+    <label for="file">Downloading progress</label>
+    <progress id="file" value="60" max="100">10%</progress>
+    <h2>Transition Property</h2>
+    <div></div>
+   
+    <img src="./download.jpg" width="320" height="150">
+   <!-- ig has z index -1 it will be placed back-->
+    
+</body>
+</html>
